@@ -1,0 +1,25 @@
+.searchForm{
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.searchForm input{
+    border: none;
+    border-radius:20px;
+    background: linear-gradient(45deg, #494949, #313131);
+    font-size:20px;    
+    color: white;
+    padding: 1rem 4rem;
+    border: none;
+    outline: none;
+    width: 100%
+}
+.searchIcon{
+    position: absolute;
+    top: 50%;
+    right: 36%;
+    transform: translate(100%, -50%);
+    color: white;
+}
