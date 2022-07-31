@@ -22,7 +22,7 @@ const CusineDetail = () => {
 
   return (
    
-    <div className="wrappers">
+    <div className="container">
         <div className='productImg'>
             <h2 style={{marginBottom:'20px'}}>{recipe.title}</h2>
             <img src={recipe.image} alt={recipe.title}/>
